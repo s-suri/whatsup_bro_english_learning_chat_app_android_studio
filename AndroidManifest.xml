@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.some.notes">
+
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PhotoEditing.GroupEditImageactivity"></activity>
+        <activity android:name=".Images.pickvideo.GroupMultipleImagePickActivity" />
+        <activity android:name=".Documents.GroupDocumentActivity" />
+        <activity android:name=".Video.pickvideo.GroupVideoPickActivity" />
+        <activity android:name=".PDF.pickvideo.GroupPDFPickActivity" />
+        <activity android:name=".Images.pickvideo.groupImagePickctivity" />
+        <activity android:name=".Documents.AllDocumentsActivity" />
+        <activity android:name=".Images.pickvideo.MultipleImagesPickAtivity" />
+        <activity android:name=".PhotoEditing.MultipleImagesEditingactivity" />
+        <activity android:name=".OnlineMessageActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2600246806666096~6479783911" />
+
+        <activity android:name=".DownLoadImage" />
+        <activity
+            android:name=".ImoticonsText.MainActivity"
+            android:configChanges="keyboard|keyboardHidden" />
+        <activity android:name=".LoginSuccessActivity" />
+        <activity android:name=".Zoom" />
+        <activity
+            android:name=".DirectVideo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImageViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartActivityInstagram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivityInstagram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivityInstagram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SqlChatsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChagePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PhotoEditing.EditImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginChangePasspword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uploads.CompitionExamDataUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uploads.MainActivityUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uploads.PdfDataUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uploads.PdfImagesUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uploads.PdfPostUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uploads.UrlUploader"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uploads.UserInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uploads.ViewPdfPosts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uploads.PdfImageUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CompitionExamDataUpload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContactsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FindFriendActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserImage"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PdfImages" />
+        <activity android:name=".PdfViewerActivity" />
+        <activity
+            android:name=".PdfPortal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MassageActivityInstagram"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PhotoEditing.MultiImages"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GroupInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddFrientUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PdfTransaction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SqlMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainMessanger"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SqlRequest"
+            android:screenOrientation="portrait" />
+        <activity android:name=".UpdateRecordActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Video.pickvideo.VideoPickActivity" />
+        <activity android:name=".Audio.pickvideo.AudioPickActivity" />
+        <activity android:name=".Documents.MainActivity" />
+        <activity android:name=".Images.pickvideo.ImagesPickActivity" />
+        <activity android:name=".Audio.pickvideo.MainActivity" />
+        <activity android:name=".PDF.pickvideo.PdfPickActivity" />
+        <activity
+            android:name=".Documents.SplashScreen"
+            android:configChanges="uiMode"
+            android:theme="@style/SplashTheme" />
+        <activity android:name=".Experiment_download.MainActivity"/>
+
+        <activity
+            android:name=".Splace"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Notifications.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Notifications.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.some.notes"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+    </application>
+
+</manifest>
